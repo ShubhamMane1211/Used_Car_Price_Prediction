@@ -1,0 +1,90 @@
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Main Container */
+.block-container{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+}
+
+/* Hero Section */
+.hero{
+    background: linear-gradient(135deg,#1f2937,#111827);
+    color:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:5px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#d1d5db;
+}
+
+/* Prediction Card */
+.prediction-card{
+    background:#16a34a;
+    color:white;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    margin-top:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.prediction-card h2{
+    font-size:18px;
+}
+
+.prediction-card h1{
+    font-size:42px;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#111827;
+}
+
+section[data-testid="stSidebar"] *{
+    color:white;
+}
+
+/* Button */
+.stButton>button{
+    width:100%;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px;
+    border-radius:10px;
+    border:none;
+}
+
+.stButton>button:hover{
+    background:#1d4ed8;
+}
+
+/* Metric */
+[data-testid="metric-container"]{
+    background:#f3f4f6;
+    border-radius:10px;
+    padding:15px;
+}
+
+/* Footer */
+.footer{
+    margin-top:40px;
+    text-align:center;
+    color:gray;
+}
